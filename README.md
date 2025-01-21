@@ -149,7 +149,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
 
 2. **Do the Same for `R:\DEADLINE10_REPO\custom`**
    
-   ![pycharm_4.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_4.png)
+   ![pycharm_4.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_4.png)
 
 ## Mark Folders
 
