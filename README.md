@@ -76,13 +76,13 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Point SourceTree to its local directory in your development folder and click **Add**
      
-     ![source_tree_1.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/source_tree_1.png)
+     ![source_tree_1.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/source_tree_1.png)
    
    - Navigate to **Repository > Repository Settings > Add** 
    
    - Add the corresponding GitLab/GitHub URL to the Remote details and click **OK**.
      
-     ![source_tree_2.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/source_tree_2.png)
+     ![source_tree_2.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/source_tree_2.png)
 
 5. **Pull the Latest Changes**
    
@@ -107,7 +107,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Ensure the **Inherit global site-packages** option is unchecked for a clean environment.
      
-     ![pycharm_1.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_1.png)
+     ![pycharm_1.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_1.png)
 
 3. **Complete Project Setup**
    
@@ -121,7 +121,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Create a virtual environment with the above settings adjusted for Python 3.9, 3.10, and 3.11.
      
-     ![pycharm_2.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_2.png)
+     ![pycharm_2.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_2.png)
 
 5. **Creating a Python 2.7 Virtual Environment Manually**
    
@@ -137,7 +137,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
 
 >  You should now have a virtual environment for each required Python version added as an interpreter in your PyCharm project. This setup ensures that you can seamlessly switch between different Python versions as needed.
 
-![pycharm_3.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_3.png)
+![pycharm_3.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_3.png)
 
 ## Attach Folders to PyCharm Project
 
@@ -161,13 +161,13 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Mark the `pipeline_dev` folder itself as **Excluded**.
      
-     ![pycharm_5.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_5.png)
+     ![pycharm_5.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_5.png)
    
    **Mark Deadline Subfolders**
    
    - Mark the `pipeline_dev` folder itself as **Excluded**.
      
-     ![pycharm_6.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_6.png)
+     ![pycharm_6.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_6.png)
 
 3. **Mark `jdo` Subfolders**
    
@@ -175,7 +175,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Mark `vendor`, `vendor_lin`, `vendor3`, and `vendor3_lin` as **Excluded**.
      
-     ![pycharm_7.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_7.png)
+     ![pycharm_7.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_7.png)
 
 ## Add Vendor Folders to Interpreters
 
@@ -183,7 +183,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Navigate to **File > Settings > Project: [pipeline_dev] > Python Interpreter > Python Interpreter > Show All**.
      
-     ![pycharm_8.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_8.png)
+     ![pycharm_8.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_8.png)
 
 2. **Add Vendor or Vendor3 to Interpreters**
    
@@ -191,7 +191,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Depending on the Python version being 2 or 3, add `R:\jdo\vendor` or `R:\jdo\vendor3` to the path list and click OK.
      
-     ![pycharm_9.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_9.png)
+     ![pycharm_9.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_9.png)
 
 ## Additional: Setting Python Interpreters
 
@@ -201,7 +201,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - For `Deadline` and `pipeline_dev`, choose **No Interpreter**.
      
-     ![pycharm_10.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/pycharm_10.png)
+     ![pycharm_10.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_10.png)
 
 > At this stage, your PyCharm project should be configured to display only your development folder in the **Project** window. You can easily switch between different Python interpreters by clicking on the interpreter name located in the bottom-right corner of the PyCharm window. Upon changing the interpreter, PyCharm will automatically load the corresponding environment and its associated vendor packages.
 
