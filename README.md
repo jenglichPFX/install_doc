@@ -207,7 +207,7 @@ To begin, you'll need tools for version control, an IDE for Python development, 
 
 ## Conclusion
 
-By following this guide, you’ve successfully set up your development environment for the PFX Pipeline. With all necessary tools installed, repositories configured, and virtual environments created.
+By following this guide, you’ve successfully set up your development environment for the PFX Pipeline.
 Remember to regularly update your repositories and adhere to best practices for version control.
 
 Happy coding, and welcome to the PFX team! 🎉
