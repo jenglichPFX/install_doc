@@ -165,9 +165,10 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    **Mark Deadline Subfolders**
    
-   - Mark the `pipeline_dev` folder itself as **Excluded**.
+   - Make sure the next `Deadline` subfolders marked as **Excluded**.
      
-     ![pycharm_6.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_6.png)
+     ![image](https://github.com/user-attachments/assets/5f7b5248-5e39-4880-b3f8-3e9a7aab1100)
+
 
 3. **Mark `jdo` Subfolders**
    
@@ -199,11 +200,31 @@ To begin, you'll need tools for version control, an IDE for Python development, 
    
    - Navigate to **File > Settings > Project: [pipeline_dev] > Python Interpreter**.
    
-   - For `Deadline` and `pipeline_dev`, choose **No Interpreter**.
+   - For `pipeline_dev`, choose **No Interpreter**.
      
      ![pycharm_10.png](https://raw.githubusercontent.com/jenglichPFX/install_doc/refs/heads/main/doc/pycharm_10.png)
 
+   - For `Deadline`, choose appropriate **Python Interpreter**
+
 > At this stage, your PyCharm project should be configured to display only your development folder in the **Project** window. You can easily switch between different Python interpreters by clicking on the interpreter name located in the bottom-right corner of the PyCharm window. Upon changing the interpreter, PyCharm will automatically load the corresponding environment and its associated vendor packages.
+
+## Software-specific Interpreter settings:
+
+1. **Install Maya stubs**
+   1. You can copy "stubs" folder from `R:\prod\stubs\maya` to your personal folder: `R:\jdo\stubs\maya`
+   2. Or you can download 2024 version from [gitlab](https://gitlab.com/maya-stub-files-release/mayastubfiles_public_release/-/releases/v1.0.0)
+   3. Or you can install it as a package **File > Settings > Project: [pipeline_dev] > Python Interpreter > Install (plus button). And type `maya-stubs` in the search field ![image](https://github.com/user-attachments/assets/e2e5729d-9039-4de5-81ab-5994b5279cf6)
+   4. Or you can even generate [your own](https://github.com/nicholas-stevenson/generate-maya-cmds-stubs)
+2. **Add maya stubs in Interpreter paths**
+   1. Navigate to **File > Settings > Project: [pipeline_dev] > Python Interpreter > Python Interpreter > Show All**.
+   2. Open up the **Interpreter Paths** by clicking on the **File Tree Icon** above the interpreter list and add the path `R:\jdo\stubs\maya` (in cases other than the `maya-stub` package installation). So in explorer you'll see all stubs content in the next path `R:\jdo\stubs\maya\maya`.
+   3. Navigate to **File > Settings > Project: [pipeline_dev] > Project Structure** and mark `jdo` subfolder `stubs` as Excluded and `stubs\maya` as Sources.![image](https://github.com/user-attachments/assets/29e21c1e-4e0a-4351-995f-610ab5237264)
+   4. Go to **Help > Edit Cutom Properties** and add `idea.max.intellisense.filesize = 10000`. Restart PyCharm, so filesize limit 2.5Mb will be increased to 10Mb for the proper autocomplete work.![image](https://github.com/user-attachments/assets/c2c8a48d-2368-4235-a8c7-65e48f7bd62b)
+
+## Project tree cleanup:
+
+1. Click on the three dots to the right of the active project's tree and make sure the "Excluded files" checkbox is unchecked.![image](https://github.com/user-attachments/assets/d3fb7364-e7c3-4280-b222-11761e80d55c)
+
 
 ## Conclusion
 
